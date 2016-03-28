@@ -22,7 +22,7 @@ defmodule Mailman.Mixfile do
   # { :foobar, "~> 0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [
-      { :eiconv, github: "zotonic/eiconv" },
+      { :eiconv, github: "zhangsoledad/eiconv" },
       { :gen_smtp, ">= 0.9.0" },
       { :ex_doc, ">= 0.6.0", only: :dev },
       { :earmark, ">= 0.0.0", only: :dev }
