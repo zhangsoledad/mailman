@@ -24,8 +24,8 @@ defmodule Mailman.Mixfile do
     [
       { :eiconv, github: "zotonic/eiconv" },
       { :gen_smtp, ">= 0.9.0" },
-      { :ex_doc, ">= 0.6.0" },
-      { :earmark, ">= 0.0.0" }
+      { :ex_doc, ">= 0.6.0", only: :dev },
+      { :earmark, ">= 0.0.0", only: :dev }
     ]
   end
 
